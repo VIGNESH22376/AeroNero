@@ -1,0 +1,271 @@
+/* Container */
+.sub-s4-container{
+    padding: 100px !important;
+    position: relative;
+}
+
+/* Bubble Left Container */
+.sub-s4-bbl-left-container{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+/* Bubble Right Container */
+.sub-s4-bbl-right-container{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+    text-align: end;
+}
+
+/* Heading */
+.sub-s4-heading{
+    color: #000;
+    font-family: "Poppins", Sans-serif;
+    font-size: 38px;
+    font-weight: 400;
+    text-transform: capitalize;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+/* Highlight */
+.sub-s4-highlight{
+    color: #008CD0;
+    font-weight: 600;
+}
+
+/* Row Container */
+.sub-s4-row-container{
+    display: flex;
+    justify-content: space-between;
+    position: relative; /* For the Ripple Animation */
+}
+
+/* -------------------------------Column 1------------------------------- */
+
+/* Card Container */
+.sub-s4-card-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly ;
+}
+
+/* Card */
+.sub-s4-card{
+    background-color: #e4f6ff;
+    padding: 20px !important;
+    border-style: solid;
+    border-width: 10px;
+    border-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 4px rgba(0, 0, 0, .1);
+    transition: 0.5s ease;
+    margin-bottom: 30px;
+
+    display: flex;
+
+    &:hover{
+        background-color: #fef1c2;
+    }
+}
+
+/* Image Container */
+.sub-s4-img-container{
+    width: 85px;
+    height: auto;
+    margin-right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+}
+
+/* Image */
+.sub-s4-img{
+    width: 90%;
+    height: auto;
+}
+
+/* Small Text Container */
+.sub-s4-sm-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* Heading */
+.sub-s4-sm-heading{
+    font-family: "Maven Pro", Sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+    color: #008cd0;
+}
+
+/* Paragraph */
+.sub-s4-sm-para{
+    font-size: 18px;
+    color: #008cd0;
+    font-family: "Maven Pro", Sans-serif;
+    font-weight: 400;
+}
+
+/* -------------------------------Column 2-------------------------------- */
+
+/* Column 2 Container */
+.sub-s4-c2-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* position: relative; */
+}
+
+/* Image */
+.sub-c2-img{
+    width: 100%;
+    height: auto;
+}
+
+/* Ripple Animation */
+.Sub-s4-SonarCont {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+    overflow: hidden;
+  }
+  
+.Sub-s4-SonarSect {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 160px;
+    height: 160px;
+    border-radius: 100%;
+    background-color: #008cd0;
+}
+  
+.Sub-s4-SonarWave {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+    background-color: #008cd0;
+    opacity: 0;
+    z-index: -1;
+    pointer-events: none;
+}
+  
+.Sub-s4-Sonar1 {
+    animation: Sub-s4-sonarWave 2s linear infinite;
+}
+  
+.Sub-s4-Sonar2 {
+    animation: Sub-s4-sonarWave 2s 0.5s linear infinite;
+}
+  
+.Sub-s4-Sonar3 {
+    animation: Sub-s4-sonarWave 2s 1s linear infinite;
+}
+  
+  
+@keyframes Sub-s4-sonarWave {
+    from {
+        opacity: 0.4;
+    }
+  
+    to {
+        transform: scale(4);
+        opacity: 0;
+    }
+}
+  
+
+/* TAB view */
+@media screen and (max-width: 992px) {
+    
+    /* Container */
+    .sub-s4-container{
+        padding: 100px 40px !important;
+    }
+
+    /* Bubble Left */
+    .sub-s4-bbl-left{
+        width: 50%;
+        height: auto;
+    }
+
+    /* Bubble Right */
+    .sub-s4-bbl-right{
+        width: 50%;
+        height: auto;
+    }
+
+    /* Heading */
+    .sub-s4-heading{
+        font-size: 32px;
+    }
+
+    /* Card */
+    .sub-s4-card{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    /* Small Text Container */
+    .sub-s4-sm-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    /* Paragraph */
+    .sub-s4-sm-para{
+        text-align: center;
+    }
+
+    /* Image Container */
+    .sub-s4-img-container{
+        width: 40px;
+        margin-right: 0px;
+        margin-bottom: 15px;
+    }
+}
+
+/* MOBILE view */
+@media screen and (max-width: 767px) {
+    
+    /* Container */
+    .sub-s4-container{
+        padding: 100px 20px !important;
+    }
+
+    /* Bubble Left */
+    .sub-s4-bbl-left{
+        width: 30%;
+        height: auto;
+    }
+
+    /* Bubble Right */
+    .sub-s4-bbl-right{
+        width: 30%;
+        height: auto;
+    }
+
+    /* Image */
+    .sub-c2-img{
+        width: 60%;
+    }
+
+    /* Card */
+    .sub-s4-card{
+        margin-bottom: 20px;
+    }
+}

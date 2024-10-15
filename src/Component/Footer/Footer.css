@@ -1,0 +1,266 @@
+/* ------------------------over all container -------------------- */
+.Footer-container {
+    padding: 100px !important;
+    background-color: #008cd0;
+    margin: 0px;
+}
+
+.footer-small-conatiner {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* ------------------------left side -------------------- */
+
+/* ------------------------top content -------------------- */
+.footer-left-heading {
+    font-family: "Poppins", Sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    color: #ffffff;
+    margin-bottom: 20px !important;
+}
+
+.footer-left-para {
+    font-family: "Maven Pro", Sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    color: #ffffff;
+}
+
+/* ------------------------bellow content-------------------- */
+.footer-left-heading2 {
+    color: #ffcb04;
+    font-family: "Maven Pro", Sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    margin-bottom: 16px;
+}
+
+/* icon  */
+.footer-left-icon {
+    color: #008cd0;
+    background-color: #ffffff;
+    padding: 15px;
+    border-radius: 50%;
+    font-size: 26px;
+}
+
+/* contact  */
+.footer-left-contact {
+    font-size: 26px;
+    font-family: "Poppins", Sans-serif;
+    color: #ffffff;
+    font-weight: 600;
+    text-decoration: none;
+    padding-left: 20px;
+
+}
+
+.footer-left-mail-social-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* social  */
+.footer-social-heading {
+    color: #ffffff;
+    font-family: "Poppins", Sans-serif;
+    font-weight: 500;
+    font-size: 44px;
+}
+
+.footer-social-icon {
+    color: #ffffff;
+    font-size: 35px;
+    padding: 0px 7px;
+}
+
+
+/* ---------------------------copyright------------------- */
+.copyright-container {
+    padding: 0px 100px;
+}
+
+.copyright-content {
+    color: #008cd0;
+    font-family: "Poppins", Sans-serif;
+    font-size: 17px;
+    padding: 10px 0px 14px 0px;
+    font-weight: 400;
+
+}
+
+/* -------------------------Right side --------------------- */
+
+.footer-form-container {
+    background-color: #ffffff;
+    border-radius: 20px;
+    padding: 20px 40px;
+}
+
+.footer-form-label {
+    font-size: 18px;
+    color: #008cd0;
+    font-family: "Poppins", sans-serif;
+    margin: 0px;
+    font-weight: 500;
+    margin-top: 16px;
+    text-align: left !important;
+}
+
+/* PLACEHOLDERS inside input & textarea */
+::placeholder {
+    font-size: 15px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    color: #008cd0 !important;
+}
+
+/* input box */
+.footer-form-input {
+    height: 35px;
+    border-radius: 15px;
+    padding: 0px 20px !important;
+    background-color: #ddf4ff !important;
+    border: 1.5px solid #008cd0 !important;
+}
+
+/* Text area */
+.footer-form-txtarea {
+    padding: 5px 20px 0px 20px !important;
+    height: 120px;
+    border-radius: 15px;
+    background-color: #ddf4ff !important;
+    border: 1.5px solid #008cd0 !important;
+}
+
+input:focus {
+    outline-style: none !important;
+    box-shadow: none !important;
+}
+
+.select-option:focus {
+    outline-style: none !important;
+    box-shadow: none !important;
+}
+
+.select-option {
+    font-size: 15px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500 !important;
+    color: #008cd0 !important;
+}
+
+
+textarea:focus {
+    outline-style: none !important;
+    box-shadow: none !important;
+}
+
+.footer-form-btn {
+    background-color: #008cd0 !important;
+    color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 10px 10px 10px 10px;
+    margin-top: 0px;
+    font-family: "Poppins", Sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    border: none;
+}
+
+.was-validated .form-control:valid,
+.was-validated .form-control:invalid,
+.was-validated .form-select:valid,
+.was-validated .form-select:invalid {
+    background-image: none !important;
+}
+
+
+/* --------------------------------media query--------------------------- */
+
+@media screen and (max-width:992px) {
+
+    /* ------------------------over all container -------------------- */
+    .Footer-container {
+        padding: 40px !important;
+
+    }
+
+    /* ------------------------left side -------------------- */
+
+    /* ------------------------top content -------------------- */
+    .footer-left-heading {
+        font-size: 36px;
+    }
+
+    .footer-left-para {
+        font-size: 18px;
+    }
+
+    /* ------------------------bellow content -------------------- */
+    .footer-left-contact {
+        font-size: 18px;
+    }
+
+    /* icon  */
+    .footer-left-icon {
+        padding: 10px;
+        font-size: 18px;
+    }
+
+    .footer-social-heading {
+        font-size: 24px;
+        padding-top: 20px;
+    }
+
+    .footer-social-icon {
+        font-size: 30px;
+    }
+
+    .footer-left-mail-social-container {
+        display: block;
+    }
+
+
+    /* ---------------------------copyright------------------- */
+    .copyright-container {
+        padding: 0px 40px;
+    }
+
+
+
+}
+
+@media screen and (max-width:767px) {
+
+    /* ------------------------over all container -------------------- */
+    .Footer-container {
+        padding: 50px 20px !important;
+    }
+
+    .footer-small-conatiner {
+        text-align: center;
+    }
+
+    /* ---------------------------copyright------------------- */
+    .copyright-container {
+        padding: 0px 5px;
+    }
+
+    .copyright-content {
+        font-size: 13px;
+        text-align: center !important;
+
+    }
+
+    /* --------------------form------------------- */
+    .footer-form-container {
+        background-color: #ffffff;
+        border-radius: 20px;
+        padding: 20px;
+    }
+}

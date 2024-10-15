@@ -1,0 +1,63 @@
+/* Container */
+.abt-s9-container {
+    padding: 50px 0px !important;
+}
+
+/* Heading */
+.abt-s9-heading {
+    color: #008cd0;
+    font-family: "Poppins", Sans-serif;
+    font-size: 38px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+/* Image Container */
+.abt-s9-img-container {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Image */
+.abt-s9-img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+
+.abt-s9-slider-container {
+    position: relative !important;
+    padding: 30px 0px;
+    display: flex;
+    justify-content: center;
+}
+
+/* Arrow Container */
+.abt-s10-arrow-container{
+    border: none;
+    background-color: #fff;
+}
+
+/* Arrow Icon */
+.abt-s10-arrow{
+    font-size: 20px;
+    color: #fff;
+    background-color: #008cd0;
+    padding: 10px 10px !important;
+    border-radius: 50%;
+    margin: 0px 15px !important;
+}
+
+ /* --------------------media query------------------------ */
+ @media screen and (max-width:992px) {
+    /* Heading */
+.abt-s9-heading {
+    font-size: 32px;
+}
+.abt-s9-slider-container {
+    padding: 10px 0px;
+}
+    
+ }

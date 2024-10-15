@@ -1,0 +1,92 @@
+.About-r3-container {
+    padding: 50px 0px !important;
+}
+
+/* Bubble  */
+.About-r3-Bubble {
+    width: 130px;
+    height: 180px;
+}
+
+/* Para  */
+.About-r3-para-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: -70px;
+    padding: 0px !important;
+} 
+
+.About-r3-para {
+    color: #000000;
+    font-family: "Maven Pro", Sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    text-transform: capitalize;
+    line-height: 1.7em;
+    text-align: center;
+}
+
+.About-r3-para-color {
+    font-family: "Poppins", Sans-serif;
+    font-size: 42px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: -1px;
+    text-align: center;
+    color: #008cd0;
+
+}
+
+.About-r3-right-div{
+    position: relative;
+    top: -130px;
+}
+/* ---------------------Media-qurery------------------ */
+
+/* 4K */
+@media screen and (min-width:1441px) {
+
+    .About-r3-para {
+        width: 1140px !important;
+    }
+
+    .About-r3-Bubble {
+        width: 250px;
+        height: 300px;
+    }
+}
+
+/* Tab view  */
+@media screen and (max-width:992px) {
+
+    /* Para  */
+    .About-r3-para {
+        font-size: 20px;
+        margin-bottom: 0px;
+    }
+
+   
+
+    .About-r3-para-color {
+        font-size: 32px;
+
+    }
+    .About-r3-container {
+        padding: 0px !important;
+    }
+
+}
+
+/* Small view  */
+@media screen and (max-width:767px) {
+
+    /* Para  */
+    .About-r3-para {
+        font-size: 18px;
+    }
+
+
+}

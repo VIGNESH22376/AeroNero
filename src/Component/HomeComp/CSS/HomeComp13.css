@@ -1,0 +1,190 @@
+/* Overall container  */
+.Home-r13-container {
+  padding: 100px !important;
+}
+
+
+/* Heading */
+.Home-r13-heading {
+  color: #000000;
+  font-family: "Poppins", Sans-serif;
+  font-size: 38px;
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: 24px !important;
+}
+
+.Home-r13-heading-color {
+  color: #008cd0;
+  font-family: "Poppins", Sans-serif;
+  font-size: 38px;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 24px !important;
+}
+
+
+/* ---------------------------toggle button ----------------------- */
+
+
+/* Container styling */
+.currency-toggle {
+  position: relative;
+  display: inline-flex;
+  border-radius: 50px;
+  background-color: #e0e0e0 !important;
+  padding: 0px;
+  width: fit-content;
+  margin-bottom: 30px;
+}
+
+/* Sliding background */
+.slider {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 50%;
+  background-color: #008cd0 !important;
+  border-radius: 50px;
+  transition: transform 0.5s ease-in-out;
+  z-index: 0;
+}
+
+/* Slide-right and slide-left */
+.slide-left {
+  transform: translateX(0);
+}
+
+.slide-right {
+  transform: translateX(100%);
+}
+
+/* Toggle button styling */
+.toggle-button {
+  position: relative;
+  padding: 15px 0px;
+  background-color: transparent;
+  cursor: pointer;
+  border-radius: 50px;
+  border: none;
+  z-index: 1; /* Make sure buttons are on top of slider */
+  width: 130px;
+  text-align: center;
+  margin: 0px 10px;
+  transition: 0.5s ease-in-out;
+  
+}
+
+.toggle-heading {
+  font-size: 18px;
+  font-family: "Poppins", Sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 2.1px;
+  margin: 0px;
+}
+
+/* Active button color */
+.toggle-button.active {
+  color: #ffffff !important;
+  
+}
+/* --------------------------------------Table-------------------- */
+
+.Home-r13-card-container {
+  padding: 20px;
+}
+
+.table-container {
+  padding: 15px !important;
+  border-radius: 20px;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+}
+
+
+/* Table  */
+.comparison-table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+  text-align: center;
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.header-row {
+  background-color: #008cd0;
+  border-radius: 20px !important;
+}
+
+.aeronero-column,
+.ro-column,
+.bottled-column {
+  padding: 20px;
+  border-right: 1px solid #fff;
+
+}
+
+.heading-column {
+  padding-top: 5px;
+  margin-bottom: 0px;
+  color: #ffffff;
+  font-family: "Poppins", Sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.parameter-column {
+  border-bottom: 1px solid #ffffff;
+  font-size: 20px;
+  font-family: "Poppins", Sans-serif;
+  letter-spacing: 1px;
+  font-weight: 700;
+  padding: 58px 0px 38px 0px;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+.aeronero-column {
+  background-color: #ffcb04;
+  color: #ffffff;
+}
+
+.ro-cell,
+.bottled-cell {
+  color: #7aa9d6;
+  background-color: #ffffff;
+  border-left: 1.5px solid #8ed1fc;
+}
+
+.ro-cell,
+.bottled-cell,
+.parameter-cell,
+.aeronero-cell {
+  padding: 25px 15px 25px 15px;
+  font-family: "Maven Pro", Sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1em;
+}
+
+.bottled-cell {
+  border-right: 1.5px solid #8ed1fc;
+}
+
+.parameter-cell {
+  font-weight: bold;
+  background-color: #008cd0;
+  color: #ffffff;
+}
+
+.aeronero-cell {
+  background-color: #ffffff;
+  color: #109c0d;
+}
+
+/* Apply border-bottom to the last row of cells (Cost per Litre) */
+.cost-row td {
+  border-bottom: 1.5px solid #8ed1fc;
+}

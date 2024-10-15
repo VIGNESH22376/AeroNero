@@ -1,0 +1,173 @@
+/* Container */
+.sub-s2-container{
+    padding: 100px 100px !important;
+    position: relative;
+}
+
+/* Bubble Left Container */
+.sub-s2-bbl-left-container{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+/* Bubble Right Container */
+.sub-s2-bbl-right-container{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+    text-align: end;
+}
+
+/* Bubble Image */
+.sub-s2-bbl-img{
+    width: 80%;
+}
+
+/* Heading */
+.sub-s2-heading{
+    color: #000;
+    font-family: "Poppins", Sans-serif;
+    font-size: 38px;
+    font-weight: 400;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+/* Highlight */
+.sub-s2-highlight{
+    color: #008CD0;
+    font-weight: 600;
+}
+
+/* Paragraph */
+.sub-s2-para{
+    color: #000;
+    text-align: center;
+    font-family: "Maven Pro", Sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+
+/* Row */
+.sub-s2-row{
+    margin-top: 50px !important;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Card Container */
+.sub-s2-card-container{
+    display: flex;
+    align-items: stretch; /* Makes All Cards height Same */
+    /* margin-bottom: 15px; */
+    width: 100%;
+    margin: 0px 0px 15px 0px;
+}
+
+/* Card */
+.sub-s2-card{
+    flex-grow: 1; /* Makes all cards equal in width */
+    align-items: center;
+    border-radius: 15px;
+    padding: 5px 30px !important;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #008CD0;
+    border: 10px solid #fff;
+    box-shadow: 0px 0px 10px 4px rgba(0, 0, 0, .1);
+    transition: 0.5s ease;
+
+    &:hover{
+        background-color: #fef1c2;
+    }
+}
+
+/* Card Image Container */
+.sub-s2-card-img-container{
+    width: 85px;
+    height: 85px;
+    margin: 10px 0px !important;
+}
+
+/* Card Image */
+.sub-s2-card-img{
+    width: 100%;
+    height: 100%;
+}
+
+/* Card Image Hover */
+.sub-s2-card-img-hover{
+    width: 100%;
+    height: 100%;
+    display: none;
+    transition: 0.5s ease;
+}
+
+/* Small Paragraph */
+.sub-s2-sm-para{
+    color: #fff;
+    font-family: "Maven Pro", Sans-serif;
+    font-size: 17px;
+    font-weight: 500;
+    margin-bottom: 15px;
+    transition: 0.5s ease;
+}
+
+/* On Hover */
+.sub-s2-card:hover .sub-s2-sm-para{
+    color: #008CD0;
+}
+
+/* On Hover Image Show */
+.sub-s2-card:hover .sub-s2-card-img-hover{
+    display: flex;
+}
+
+/* On Hover Image Hide */
+.sub-s2-card:hover .sub-s2-card-img{
+    display: none;
+}
+
+/* TAB view */
+@media screen and (max-width: 992px) {
+    
+    /* Container */
+    .sub-s2-container{
+        padding: 100px 40px !important;
+    }
+
+    /* Bubble Image */
+    .sub-s2-bbl-img{
+        width: 50%;
+    }
+
+    /* Heading */
+    .sub-s2-heading{
+        font-size: 32px;
+    }
+
+    /* Paragraph */
+    .sub-s2-para{
+        font-size: 18px;
+    }
+}
+
+/* MOBILE view */
+@media screen and (max-width: 767px) {
+    
+    /* Container */
+    .sub-s2-container{
+        padding: 50px 20px !important;
+    }
+
+    /* Bubble Image */
+    .sub-s2-bbl-img{
+        width: 30%;
+    }
+}

@@ -1,0 +1,124 @@
+.Home-r5-container {
+  padding: 100px;
+}
+
+
+.Home-r5-heading {
+  color: #000000;
+  font-family: "Poppins", Sans-serif;
+  font-size: 38px;
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: 16px !important;
+}
+
+.Home-r5-heading-color {
+  color: #008cd0;
+  font-family: "Poppins", Sans-serif;
+  font-size: 38px;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 16px !important;
+}
+
+/* --------------------swipper----------------------------- */
+
+.Home-r5-swipper-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 16px;
+}
+
+.Home-r5-slide-image {
+  position: relative;
+  width: 490px;
+  height: 721px;
+  margin-right: 24px;
+}
+
+/* --------------------button------------------------------- */
+.swiper-button-prev,
+.swiper-button-next {
+
+  background-color: #FFCB04;
+  width: 50px !important;
+  height: 50px !important;
+  border-radius: 10px;
+  opacity: 0.7;
+  color: #fff;
+}
+
+.swiper-button-next::after,
+.swiper-button-prev::after {
+  font-size: 20px !important;
+  font-weight: 600 !important;
+  color: #fff;
+}
+
+
+.swiper-button-next:hover,
+.swiper-button-prev:hover {
+  opacity: 1;
+}
+
+/* --------------------------expolre-------------------------- */
+.Home-r5-explore {
+
+  /* for postion the button  */
+  position: absolute;
+  bottom: 60px;
+  margin-right: 25px;
+
+  /* styles  */
+  background-color: #FFCB04;
+  font-family: "Poppins", Sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #14526F;
+  border-radius: 10px;
+  border: none;
+  padding: 12px 35px;
+  line-height: 1;
+  text-decoration: none;
+}
+
+/* -----------------------MEDIA QUERY------------------------ */
+@media (max-width:992px) {
+  .Home-r5-container {
+    padding: 40px;
+  }
+}
+
+@media (max-width:767px) {
+  .Home-r5-container {
+    padding: 50px 20px;
+  }
+
+  .Home-r5-slide-image {
+    width: 350px;
+    height: 425px;
+  }
+
+
+  .Home-r5-explore {
+
+    /* for postion the button  */
+    position: absolute;
+    bottom: 30px;
+    margin-right: 25px;
+
+      /* styles  */
+    background-color: #FFCB04;
+    font-family: "Poppins", Sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #14526F;
+    border-radius: 10px;
+    border: none;
+    padding: 8px;
+    line-height: 1;
+  }
+}

@@ -1,0 +1,111 @@
+/* Overall container  */
+.Home-r8-head-container {
+    padding: 10px 0px !important;
+    margin: auto;
+}
+
+.Home-r8-container {
+    border: 1px solid #008cd0;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    border-radius: 30px;
+    background-color: #f1faff;
+}
+
+/* ------------------------------content container---------------------------- */
+.Home-r8-content-container {
+    padding: 10px !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* image  */
+.Home-r8-img {
+    height: auto;
+    width: 50px;
+}
+
+.Home-r8-img-heading {
+    font-size: 24px;
+    font-family: "Poppins", Sans-serif;
+    color: #008cd0;
+    font-weight: 700;
+    margin: 0px;
+    padding-left: 10px !important;
+
+}
+
+/* para  */
+.Home-r8-para {
+    font-size: 16px;
+    color: #000000;
+    font-family: "Maven Pro", Sans-serif;
+    margin: 0px;
+
+}
+
+/* button  */
+.Home-r8-button {
+    font-size: 14px;
+    font-family: "Poppins", Sans-serif;
+    padding: 15px 25px;
+    background-color: #ffcb04;
+    color: #14526f !important;
+    border-radius: 10px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    text-decoration: none;
+    font-weight: 600;
+}
+
+/* --------------------------------media query--------------------------- */
+
+/* 4K */
+@media screen and (min-width:1441px) {
+    .Home-r8-container {
+        width: 1140px;
+    }
+   
+}
+/* Tab view  */
+@media screen and (max-width:992px) {
+
+    /* Overall container  */
+    .Home-r8-head-container {
+        padding: 40px !important;
+    }
+
+    .Home-r8-container {
+        width: 100%;
+        text-align: center;
+    }
+
+
+
+}
+
+/* Mobile view  */
+@media screen and (max-width:767px) {
+
+    /* content container */
+    .Home-r8-content-container {
+        flex-direction: column;
+    }
+
+    /* image  */
+    .Home-r8-img {
+        height: auto;
+        width: 60px;
+    }
+
+    .Home-r8-img-heading {
+        margin-top: 10px;
+        padding: 0px;
+
+    }
+
+
+
+}

@@ -1,0 +1,139 @@
+/* Container */
+.home-s9-container{
+    padding: 100px 100px 0px 100px!important;
+}
+
+/* Heading */
+.home-s9-heading{
+    color: #000000;
+    font-family: "Poppins", Sans-serif;
+    font-size: 38px;
+    font-weight: 400;
+    text-transform: capitalize;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+/* Highlight */
+.home-s9-highlight{
+    color: #008CD0;
+    font-weight: 600;
+}
+
+/* Paragraph */
+.home-s9-para{
+    color: #000000;
+    text-align: center;
+    font-family: "Maven Pro", Sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+
+/* ----------------------------------------------------------Row 2-------------------------------------------------------------- */
+
+/* Container */
+.home-s9-row2-container{
+    padding-top: 80px;
+}
+
+/* Row */
+.home-s9-c2-container-row{
+    padding: 10px 10px 10px 10px !important;
+
+    display: flex;
+    justify-content: center;
+}
+
+/* Card Container */
+.home-s9-c2-container{
+    padding: 30px !important;
+    background-color: #e4f6ff;
+    margin: 10px 15px !important;
+    border-radius: 12px;
+    transition: 0.5s ease-in-out;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    &:hover{
+        background-color: #fef1c2;
+    }
+}
+
+.home-s9-c1-image{
+    width: 80%;
+    height: 70%;
+}
+
+/* Image Container */
+.home-s9-c2-img-container{
+    height: 95px;
+    width: 95px;
+    margin-bottom: 15px;
+}
+
+/* Image */
+.home-s9-c2-img{
+    height: 100%;
+    width: 100%;
+}
+
+/* Small Heading */
+.home-s9-c2-heading{
+    margin-top: 8px;
+    color: #008CD0;
+    font-family: "Poppins", Sans-serif;
+    font-size: 21px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    text-align: center;
+}
+
+/* Small Paragraph */
+.home-s9-c2-para{
+    color: #008CD0;
+    font-family: "Maven Pro", Sans-serif;
+    font-weight: 500;
+    text-align: center;
+    font-size: 18px;
+}
+
+/* TAB view */
+@media screen and (max-width : 992px) {
+    
+    /* Container */
+    .home-s9-container{
+        padding: 80px 40px !important;
+    }
+
+    /* Heading */
+    .home-s9-heading{
+        font-size: 32px;
+    }
+
+    /* Paragraph */
+    .home-s9-para{
+        font-size: 18px;
+    }
+
+    /* Row */
+    .home-s9-c2-container-row{
+        padding: 0px 10px 10px 10px !important;
+
+        display: flex;
+        justify-content: center;
+    }
+}
+
+/* MOBILE view */
+@media screen and (max-width: 767px) {
+    
+     /* Container */
+     .home-s9-container{
+        padding: 80px 20px !important;
+    }
+}

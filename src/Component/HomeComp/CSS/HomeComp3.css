@@ -1,0 +1,220 @@
+.Home-r3-container {
+    padding: 0px 100px !important;
+}
+
+.Home-r3-small-container1 {
+    padding: 10px !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.Home-r3-small-container2 {
+    padding: 10px;
+    position: relative;
+
+}
+
+/* left side  */
+.Home-r3-heading1 {
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+    color: #008cd0;
+    letter-spacing: 2px;
+    font-weight: 500;
+    margin-bottom: 18px;
+}
+
+.Home-r3-heading2 {
+    font-size: 42px;
+    font-family: "Poppins", sans-serif;
+    color: #008cd0;
+    font-weight: 700;
+    line-height: 1;
+    margin-bottom: 18px;
+}
+
+.Home-r3-para {
+    font-size: 20px;
+    font-family: "Maven Pro", Sans-serif;
+    font-weight: 400;
+    color: #000000;
+    padding-bottom: 13px;
+}
+
+/* button  */
+.Home-r3-btn {
+    font-size: 15px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    color: #ffffff;
+    background-color: #0e8cd0;
+    padding: 15px 35px;
+    border-radius: 10px;
+    text-decoration: none;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+/* right side  */
+
+/* box  */
+.Home-r3-card-box {
+    display: flex;
+    justify-content: center;
+    z-index: -1;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 150px 160px;
+    border: 1px solid #008cd0;
+}
+
+/* box content  */
+.Home-r3-card-heading {
+
+    /* for postion  */
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    /* for style  */
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+    color: #008cd0;
+    letter-spacing: 2px;
+    font-weight: 500;
+}
+
+
+/* card container  */
+
+.Home-r3-right-small-container {
+    display: flex;
+    justify-content: center;
+}
+
+
+.Home-r3-card-container {
+    text-align: center;
+    background-color: #e4f6ff;
+    padding: 20px 20px 0px 20px !important;
+    border: 10px solid #ffffff;
+    border-radius: 10px;
+    border-width: 10px;
+    box-shadow: 0px 0px 10px 4px rgba(0, 0, 0, 0.1);
+    margin: 10px 10px 50px 10px;
+    transition: ease .5s;
+
+    &:hover {
+        background-color: #fef1c2;
+    }
+}
+
+/* card image  */
+.Home-r3-image-div {
+    padding-bottom: 15px !important;
+}
+
+.Home-r3-image {
+    height: 64%;
+    width: 64%;
+}
+
+/* para  */
+.Home-r3-card-para {
+    font-size: 17px;
+    color: #008cd0;
+    font-family: "Maven Pro", Sans-serif;
+    font-weight: 500;
+    line-height: 1.2;
+    margin: 8px 0px 16px 0px !important;
+}
+
+/* --------------------------------media query--------------------------- */
+
+@media screen and (max-width:992px) {
+
+    /* overall container  */
+    .Home-r3-container {
+        padding: 40px !important;
+    }
+
+    /* left side  */
+    .Home-r3-heading1 {
+        font-size: 15px;
+    }
+
+    .Home-r3-heading2 {
+        font-size: 32px;
+    }
+
+    .Home-r3-para {
+        font-size: 18px;
+    }
+
+    /* right side  */
+    .Home-r3-small-container2 {
+        padding: 40px 0px 0px 0px !important;
+
+    }
+
+    .Home-r3-image {
+        height: 32% !important;
+        width: 32% !important;
+    }
+
+    .Home-r3-card-heading {
+        top: 50%;
+    }
+}
+
+@media screen and (max-width:767px) {
+
+    /* overall container  */
+    .Home-r3-container {
+        padding: 20px 20px 50px 20px !important;
+    }
+
+    /* left side  */
+
+    .Home-r3-small-container1 {
+        text-align: center;
+    }
+
+    /* button  */
+    .Home-r3-btn {
+        padding: 15px 18px;
+    }
+
+    /* right side  */
+    .Home-r3-small-container2 {
+        padding: 70px 0px 0px 0px !important;
+
+    }
+
+    .Home-r3-image {
+        height: 11% !important;
+        width: 11% !important;
+    }
+
+    .Home-r3-card-container {
+        margin: 10px 10px 10px 10px;
+    }
+
+    .Home-r3-card-box {
+        display: none;
+    }
+
+    .Home-r3-card-heading {
+        position: relative;
+        top: 0;
+        left: 0;
+        transform: translate(0, 0);
+        margin-bottom: 25px;
+
+    }
+}

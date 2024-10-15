@@ -1,0 +1,130 @@
+/* .HomeComp5_Container {
+    position: relative;
+    padding: 100px;
+    width: 100%;
+}
+
+.HomeComp5_Holder {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.Heading{
+    text-align: center;
+    color: #000;
+    font-family: "Poppins", Sans-serif !important;
+    font-size: 38px;
+    font-weight: 400;
+
+}
+
+
+.highlightSpan{
+    color: #008cd0;
+    font-family: "Poppins", Sans-serif;
+    font-size: 38px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 16px !important;
+}
+.CarouselImageCont {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.CarouselImage {
+    position: relative;
+    margin-right: 25px;
+    width: 490px;
+    height: 721px;
+}
+
+.swiper-slide {
+    transition: opacity 0.5s ease;
+    opacity: 0.7;
+}
+
+.swiper-slide-active {
+    opacity: 1;
+}
+
+.ExploreLink {
+    position: absolute;
+    bottom: 60px;
+    margin-right: 25px;
+}
+
+.exploreButton {
+    background-color: #FFCB04;
+    font-family: "Poppins", Sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #14526F;
+    border-radius: 10px;
+    border: none;
+    padding: 12px 35px;
+    line-height: 1;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+    background-color: #FFCB04;
+    width: 50px !important;
+    height: 50px !important;
+    border-radius: 10px;
+    opacity: 0.7;
+    color: #fff;
+}
+
+.swiper-button-next::after,
+.swiper-button-prev::after {
+    font-size: 20px !important;
+    font-weight: 600 !important;
+    color: #fff;
+}
+
+
+.swiper-button-next:hover,
+.swiper-button-prev:hover {
+    opacity: 1;
+}
+
+@media (max-width:1024px) {
+    .HomeComp5_Container {
+        padding: 40px;
+    }
+}
+
+@media (max-width:425px) {
+    .HomeComp5_Container {
+        padding: 50px 20px;
+    }
+
+    .CarouselImage {
+        width: 350px;
+        height: 425px;
+    }
+
+    .ExploreLink {
+        position: absolute;
+        bottom: 30px;
+        margin-right: 25px;
+    }
+
+    .exploreButton {
+        background-color: #FFCB04;
+        font-family: "Poppins", Sans-serif;
+        font-size: 12px;
+        font-weight: 600;
+        text-transform: uppercase;
+        color: #14526F;
+        border-radius: 10px;
+        border: none;
+        padding: 8px;
+        line-height: 1;
+    }
+} */

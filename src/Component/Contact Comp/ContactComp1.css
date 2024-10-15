@@ -1,0 +1,266 @@
+/* ------------------------over all container -------------------- */
+.contact-container {
+    padding: 100px 0px 50px 0px;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+}
+
+.contact-small-conatiner1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding:0px 100px !important;
+
+    width: 80% !important;
+}
+
+/* heading  */
+.contact-heading{
+    font-family: "Poppins", Sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    color: #008cd0;
+    margin-bottom: 16px;
+    text-align: center;
+}
+/* ------------------------left side -------------------- */
+
+/* ------------------------top content -------------------- */
+
+
+.contact-left-para {
+    font-family: "Maven Pro", Sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    color: #000000;
+}
+
+/* ------------------------bellow content-------------------- */
+
+/* icon  */
+.contact-left-icon {
+    color: #008cd0;
+    background-color: #ffffff;
+    border-radius: 50%;
+    font-size: 32px;
+}
+
+/* contact  */
+.contact-left-contact {
+    font-size: 26px;
+    font-family: "Open Sans", Sans-serif;
+    color: #008cd0;
+    font-weight: 700;
+    text-decoration: none;
+    padding-left: 20px;
+
+}
+
+
+
+/* social  */
+
+.contact-social-icon {
+    color: #008cd0;
+    font-size: 35px;
+    padding: 80px 7px 0px 7px;
+}
+
+
+.contact-details-div{
+    padding: 10px 0px;
+}
+
+/* ---------------------------copyright------------------- */
+.copyright-container {
+    padding: 0px 100px;
+    display: none !important;
+}
+
+.copyright-content {
+    color: #008cd0;
+    font-family: "Poppins", Sans-serif;
+    font-size: 17px;
+    padding: 10px 0px 14px 0px;
+    font-weight: 400;
+
+}
+
+/* -------------------------Right side --------------------- */
+
+.contact-form-container {
+    background-color: #ffffff;
+    border-radius: 20px;
+    padding: 40px 20px 20px 20px;
+}
+
+.contact-form-label {
+    font-size: 18px;
+    color: #008cd0;
+    font-family: "Poppins", sans-serif;
+    margin: 0px;
+    font-weight: 500;
+    margin-top: 16px;
+    text-align: left !important;
+}
+
+/* PLACEHOLDERS inside input & textarea */
+::placeholder {
+    font-size: 15px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    color: #008cd0 !important;
+}
+
+/* input box */
+.contact-form-input {
+    height: 45px;
+    border-radius: 15px;
+    padding: 0px 20px !important;
+    background-color: #ddf4ff !important;
+    border: 1.5px solid #008cd0 !important;
+}
+
+/* Text area */
+.contact-form-txtarea {
+    padding: 5px 20px 0px 20px !important;
+    height: 120px;
+    border-radius: 15px;
+    background-color: #ddf4ff !important;
+    border: 1.5px solid #008cd0 !important;
+}
+
+input:focus {
+    outline-style: none !important;
+    box-shadow: none !important;
+}
+
+.select-option:focus {
+    outline-style: none !important;
+    box-shadow: none !important;
+}
+
+.select-option {
+    font-size: 15px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500 !important;
+    color: #008cd0 !important;
+}
+
+
+textarea:focus {
+    outline-style: none !important;
+    box-shadow: none !important;
+}
+
+.contact-form-btn {
+    background-color: #008cd0 !important;
+    color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 10px 10px 10px 10px;
+    margin-top: 0px;
+    font-family: "Poppins", Sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    border: none;
+}
+
+.was-validated .form-control:valid,
+.was-validated .form-control:invalid,
+.was-validated .form-select:valid,
+.was-validated .form-select:invalid {
+    background-image: none !important;
+}
+
+
+/* --------------------------------media query--------------------------- */
+
+@media screen and (max-width:992px) {
+
+    /* ------------------------over all container -------------------- */
+    .contact-container {
+        padding: 40px 0px;
+    }
+
+    /* ------------------------left side -------------------- */
+
+    /* ------------------------top content -------------------- */
+    .contact-small-conatiner1 {
+        padding:0px 40px !important;
+    }
+
+    .contact-left-para {
+        font-size: 18px;
+    }
+
+    /* ------------------------bellow content -------------------- */
+    .contact-left-contact {
+        font-size: 18px;
+    }
+
+    /* icon  */
+    .contact-left-icon {
+        padding: 10px;
+        font-size: 18px;
+    }
+
+    .contact-social-heading {
+        font-size: 24px;
+        padding-top: 20px;
+    }
+
+    .contact-social-icon {
+        font-size: 30px;
+    }
+
+    .contact-left-mail-social-container {
+        display: block;
+    }
+
+
+    /* ---------------------------copyright------------------- */
+    .copyright-container {
+        padding: 0px 40px;
+        display: flex !important;
+    }
+
+
+
+}
+
+@media screen and (max-width:767px) {
+
+    /* ------------------------over all container -------------------- */
+    .contact-container {
+        padding: 50px 0px;
+    }
+
+    .contact-small-conatiner1 {
+        padding:0px 20px !important;
+        width: 100% !important;
+    }
+
+    .contact-small-conatiner {
+        text-align: center;
+    }
+
+    /* ---------------------------copyright------------------- */
+    .copyright-container {
+        padding: 0px 5px;
+    }
+
+    .copyright-content {
+        font-size: 13px;
+        text-align: center !important;
+
+    }
+
+    /* --------------------form------------------- */
+    .contact-form-container {
+        background-color: #ffffff;
+        border-radius: 20px;
+        padding: 40px 20px 20px 20px;
+    }
+}

@@ -1,0 +1,197 @@
+/* Container */
+.sub-s3-container{
+    padding: 100px 100px !important ;
+}
+
+/* Heading */
+.sub-s3-heading{
+    color: #000;
+    font-family: "Poppins", Sans-serif;
+    font-size: 38px;
+    font-weight: 400;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+/* Highlight */
+.sub-s3-highlight{
+    color: #008CD0;
+    font-weight: 600;
+}
+
+/* Paragraph */
+.sub-s3-para{
+    color: #000;
+    text-align: center;
+    font-family: "Maven Pro", Sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+
+/* Button Container */
+.sub-s3-btn-container{
+    text-align: center;
+    margin-top: 50px;
+}
+
+/* Button */
+.sub-s3-btn{
+    text-decoration: none;
+    background-color: #008CD0;
+    font-family: "Poppins", Sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #ffffff;
+    border-radius: 10px;
+    padding: 15px 35px;
+}
+
+/* Bar Container Outside */
+.sub-s3-bar-container-outside{
+    margin-top: 50px !important;
+    padding: 0px 100px !important;
+}
+
+/* Bar Container */
+.sub-s3-bar-container{
+    border-radius: 15px;
+    border: 10px solid #ffffff;
+    box-shadow: 0px 4px 19px 0px rgba(0, 0, 0, .15);
+}
+
+/* Bar */
+.sub-s3-bar{
+    border-radius: 10px;
+    background-color: #e4f6ff;
+    
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+    transition: 0.5s ease-in-out !important;
+
+    &:hover{
+        background-color: #fef1c2;
+    }
+}
+
+/* Small Heading */
+.sub-s3-sm-heading{
+    color: #008CD0;
+    font-family: "Maven Pro", Sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 10px !important;
+}
+
+/* Small Paragraph */
+.sub-s3-sm-para{
+    text-align: center;
+    font-family: "Maven Pro", Sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 15px;
+
+    display: none;
+}
+
+/* Left Image Container */
+.sub-s3-left-img-container{
+    display: none;
+}
+
+/* Left Image */
+.sub-s3-left-img{
+    height: 70%;
+}
+
+/* Right Image Container */
+.sub-s3-right-img-container{
+    display: none;
+}
+
+/* Right Image */
+.sub-s3-right-img{
+    /* transform: scaleX(-1); */
+    height: 70%;
+}
+
+.sub-s3-bar-container:hover .sub-s3-left-img-container{
+    transition: 0.5s ease-in-out;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sub-s3-bar-container:hover .sub-s3-right-img-container{
+    transition: 0.5s ease-in-out;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sub-s3-bar-container:hover .sub-s3-sm-para{
+    transition: 0.5s ease-in-out;
+    display: block;
+}
+
+/* Text Container */
+.sub-s3-bar-container:hover .sub-s3-txt-container{
+    transition: 0.5s ease-in-out;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    padding: 10px 0px !important;
+}
+
+/* TAB view */
+@media screen and (max-width: 992px) {
+    
+    /* Container */
+    .sub-s3-container{
+        padding: 100px 40px !important ;
+    }
+
+    /* Heading */
+    .sub-s3-heading{
+        font-size: 32px;
+    }
+
+    /* Paragraph */
+    .sub-s3-para{
+        font-size: 18px;
+    }
+
+    /* Bar Container Outside */
+    .sub-s3-bar-container-outside{
+        padding: 0px !important;
+    }
+
+    /* Small Paragraph */
+    .sub-s3-sm-para{
+        font-size: 18px;
+    }
+}
+
+/* MOBILE view */
+@media screen and (max-width: 767px) {
+    
+    /* Container */
+    .sub-s3-container{
+        padding: 100px 20px !important ;
+    }
+
+    /* Small Heading */
+    .sub-s3-sm-heading{
+        font-size: 20px;
+    }
+
+    .sub-s3-bar-container:hover .sub-s3-right-img-container{
+        display: none;
+    }
+}

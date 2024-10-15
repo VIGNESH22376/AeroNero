@@ -1,0 +1,83 @@
+/* Container */
+.sub-s5-container{
+    padding: 100px !important;
+}
+
+/* Highlight */
+.sub-s5-highlight{
+    color: #008CD0;
+    font-weight: 600;
+    font-family: "Poppins", Sans-serif;
+    font-size: 38px;
+    text-transform: capitalize;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+/* Box Container */
+.sub-s5-box-container{
+    border: 15px solid #fff;
+    box-shadow: 0px 0px 10px 4px rgba(0, 0, 0, .1);
+    background-color: #e4f6ff;
+    padding: 50px !important;
+}
+
+.sub-s5-box{
+    overflow: auto !important; 
+}
+
+/* Column 1 Heading */
+.sub-s5-c1-heading{
+    color: #008CD0;
+    font-family: "Maven Pro", Sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+/* Column 1 Paragraph */
+.sub-s5-c1-para{
+    color: #000;
+    font-family: "Maven Pro", Sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    text-transform: capitalize;
+}
+
+/* TAB view */
+@media screen and (max-width : 992px) {
+    
+    /* Container */
+    .sub-s5-container{
+        padding: 100px 40px !important;
+    }
+
+    /* Highlight */
+    .sub-s5-highlight{
+        font-size: 32px;
+    }
+
+    /* Box Container */
+    .sub-s5-box-container{
+        padding: 20px !important;
+    }
+}
+
+/* MOBILE view */
+@media screen and (max-width: 767px) {
+    
+    /* Container */
+    .sub-s5-container{
+        padding: 100px 0px !important;
+    }
+
+    /* Column 1 Heading */
+    .sub-s5-c1-heading{
+        font-size: 15px;
+    }
+
+    /* Column 1 Paragraph */
+    .sub-s5-c1-para{
+        font-size: 15px;
+    }
+}

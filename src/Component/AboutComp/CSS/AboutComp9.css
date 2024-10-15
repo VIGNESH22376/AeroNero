@@ -1,0 +1,133 @@
+/* Overall container  */
+.About-r9-container {
+    padding: 100px !important;
+}
+
+
+/* Heading */
+.About-r9-heading {
+    color: #000000;
+    font-family: "Poppins", Sans-serif;
+    font-size: 38px;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 24px !important;
+}
+
+.About-r9-heading-color {
+    color: #008cd0;
+    font-family: "Poppins", Sans-serif;
+    font-size: 38px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 24px !important;
+}
+
+/* ----------------------card container---------------------- */
+.About-r9-card-container {
+    padding: 10px;
+    margin-top: 20px !important;
+}
+
+.About-r9-card-div {
+    padding: 10px 25px !important;
+}
+
+.About-r9-card-inside-container {
+    background-color: #f1faff;
+    display: flex;
+    border: 1px solid #008cd0;
+    border-radius: 20px;
+    margin-bottom: 25px;
+    transition: ease 0.5s;
+
+    &:hover {
+        background-color: #fef1c2;
+        transform: scale(1.08);
+    }
+}
+
+/* image  */
+.About-r9-card-img {
+    height: 16vh;
+    width: auto;
+    padding-right: 30px;
+    padding-bottom: 2px;
+}
+
+/* content  */
+.About-card-heading {
+    margin-bottom: 0px;
+    font-family: "Poppins", Sans-serif;
+    font-size: 34px;
+    font-weight: 600;
+    letter-spacing: 4px;
+    color: #008cd0;
+}
+
+.About-card-para {
+    font-family: "Poppins", Sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    color: #008cd0;
+    margin-bottom: 0px !important;
+}
+
+/* ---------------------media query---------------------------- */
+
+/* Tab view  */
+@media screen and (max-width:992px) {
+
+    /* Overall container  */
+    .About-r9-container {
+        padding: 40px !important;
+    }
+
+    /* card container  */
+    .About-r9-card-div {
+        padding: 0px 10px !important;
+    }
+
+    /* Heading */
+    .About-r9-heading {
+        font-size: 32px;
+    }
+
+    .About-r9-heading-color {
+        font-size: 32px;
+    }
+
+}
+
+/* Mobile View  */
+@media screen and (max-width:767px) {
+
+    /* Overall container  */
+    .About-r9-container {
+        padding: 50px 20px !important;
+    }
+
+    /* card container  */
+    .About-r9-card-div {
+        padding: 0px 10px !important;
+    }
+
+    .About-r9-card-inside-container {
+        padding: 20px;
+        display: block;
+        text-align: center;
+    }
+
+    /* image  */
+    .About-r9-card-img {
+        height: 14vh;
+        width: auto;
+        padding: 0px 0px 10px 0px;
+    }
+
+    /* content  */
+    .About-card-heading {
+        font-size: 25px;
+
+    }
+}

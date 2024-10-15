@@ -1,0 +1,158 @@
+/* Overall  container  */
+.Home-r7-container {
+    padding: 100px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* -------------------------top content------------------------- */
+.Home-r7-content-div {
+    width: 70% !important;
+}
+
+.Home-r7-heading {
+    color: #000000;
+    font-family: "Poppins", Sans-serif;
+    font-size: 38px;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 16px !important;
+}
+
+.Home-r7-heading-color {
+    color: #008cd0;
+    font-family: "Poppins", Sans-serif;
+    font-size: 38px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 16px !important;
+}
+
+/* para  */
+.Home-r7-para {
+    color: #000000;
+    font-family: "Maven Pro", Sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 16px;
+
+}
+
+/* -------------------------card------------------------- */
+
+.Home-r7-card-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    margin: 0px !important;
+}
+
+/* Image  */
+.Home-r7-img-div {
+    padding: 30px 30px 20px 30px;
+    background-color: #e4f6ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    transition: ease 0.5s;
+
+    &:hover{
+        background-color: #fef1c2;
+    }
+}
+
+.Home-r7-img {
+    height: 90%;
+    width: 90%;
+    margin-bottom: 15px;
+}
+
+.Home-r7-card-heading {
+    font-size: 18px;
+    font-family: "Maven Pro", Sans-serif;
+    color: #008cd0;
+    font-weight: 600;
+    line-height: 1.4em;
+    margin: 16px 0px 10px 0px !important;
+
+}
+
+.Home-r7-card-para {
+    font-size: 15px;
+    color: #000000;
+    font-family: "Maven Pro", Sans-serif;
+    font-weight: 500;
+    margin-bottom: 14px !important;
+}
+
+/* --------------------------------media query--------------------------- */
+
+@media screen and (max-width:992px) {
+
+    /* Overall  container  */
+    .Home-r7-container {
+        padding: 40px 40px 40px 40px;
+
+    }
+
+    /* -------------------------top content------------------------- */
+    .Home-r7-content-div {
+        width: 100% !important;
+        padding: 0px !important;
+    }
+
+    .Home-r7-heading {
+        font-size: 32px;
+    }
+
+    .Home-r7-heading-color {
+        font-size: 32px;
+    }
+
+    /* para  */
+    .Home-r7-para {
+        font-size: 18px;
+
+    }
+
+    /* -------------------------card------------------------- */
+    .Home-r7-card-heading {
+        font-size: 15px;
+
+    }
+
+    /* Image  */
+    .Home-r7-img-div {
+        padding: 20px 20px 10px 20px;
+
+    }
+
+
+}
+
+@media screen and (max-width:767px) {
+
+    /* Overall  container  */
+    .Home-r7-container {
+        padding: 50px 20px 50px 20px;
+
+    }
+
+    /* -------------------------card------------------------- */
+    .Home-r7-card-heading {
+        font-size: 18px;
+    }
+
+    .Home-r7-img {
+        height: 20%;
+        width: 20%;
+        margin-bottom: 15px;
+    }
+
+
+
+}

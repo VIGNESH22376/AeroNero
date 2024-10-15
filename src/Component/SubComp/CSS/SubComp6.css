@@ -1,0 +1,173 @@
+/* Container */
+.sub-s6-container{
+    padding: 100px !important;
+}
+
+/* Heading */
+.sub-s6-heading{
+    color: #000;
+    font-family: "Poppins", Sans-serif;
+    font-size: 38px;
+    font-weight: 400;
+    text-transform: capitalize;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+/* Highlight */
+.sub-s6-highlight{
+    color: #008CD0;
+    font-weight: 600;
+}
+
+/* Steps */
+.sub-s6-steps{
+    border-radius: 15px;
+    border: 10px solid #ffffff;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.25);
+}
+
+/* Steps Inside */
+.sub-s6-steps-inside{
+    border-radius: 5px;
+    background-color: #008CD0;
+}
+
+/* Image Left Container */
+.sub-s6-img-left-container{
+    padding: 0px !important;
+}
+
+/* Image Right Container */
+.sub-s6-img-right-container{
+    text-align: end;
+    padding: 0px !important;
+}
+
+/* Image */
+.sub-s6-img{
+    width: 60%;
+    height: auto;
+}
+
+/* Text Container */
+.sub-s6-sm-container{
+    display: flex;
+    align-items: center;
+}
+
+/* Small Heading */
+.sub-s6-sm-heading{
+    color: #fff;
+    font-family: "Poppins", Sans-serif;
+    font-size: 23px;
+    font-weight: 500;
+    text-transform: capitalize;
+    line-height: 1.3em;
+    padding: 10px !important;
+}
+
+/* Small Paragraph */
+.sub-s6-sm-para{
+    color: #fef1c2;
+    font-family: "Poppins", Sans-serif;
+    font-size: 26px;
+    font-weight: 600;
+    text-transform: capitalize;
+    line-height: 1.3em;
+    padding: 0px 10px 10px 10px !important;
+    margin: 0px !important;
+    margin: 0px !important;
+}
+
+/* TAB view */
+@media screen and (max-width: 992px) {
+    
+    /* Container */
+    .sub-s6-container{
+        padding: 40px !important;
+    }
+
+    /* Heading */
+    .sub-s6-heading{
+        font-size: 32px;
+    }
+
+    /* Steps */
+    .sub-s6-steps{
+        height: fit-content;
+        display: flex;
+    }
+
+    /* Image Left */
+    .sub-s6-img{
+        width: 100%;
+        height: auto;
+    }
+
+    /* Small Heading */
+    .sub-s6-sm-heading{
+        font-size: 25px;
+    }
+
+    /* Small Paragraph */
+    .sub-s6-sm-para{
+        font-size: 25px;
+    }
+}
+
+/* MOBILE view */
+@media screen and (max-width: 767px) {
+    
+    /* Container */
+    .sub-s6-container{
+        padding: 50px 20px !important;
+    }
+
+    /* Steps */
+    .sub-s6-steps{
+        height: auto;
+        display: flex;
+    }
+    
+    /* Image Left Container */
+    .sub-s6-img-left-container{
+        display: flex;
+        align-items: end;
+        /* padding: 0px !important; */
+    }
+
+    /* Image Left */
+    .sub-s6-img{
+        width: 60%;
+        height: 35%;
+        /* width: 100%;
+        height: 30%; */
+    }
+
+    /* Text Container */
+    .sub-s6-sm-container{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    /* Small Heading */
+    .sub-s6-sm-heading{
+        font-size: 22px;
+    }
+
+    /* Small Paragraph */
+    .sub-s6-sm-para{
+        font-size: 22px;
+    }
+}
+
+/* Small Mobile */
+@media screen and (max-width: 430px ) {
+
+    /* Image Left */
+    .sub-s6-img{
+        width: 100%;
+    }
+}

@@ -1,0 +1,102 @@
+/* Container */
+.home-s14-container {
+    padding: 50px 100px !important;
+    position: relative;
+}
+
+/* Image */
+.home-s14-img {
+    height: 100%;
+    width: 100%;
+}
+
+/* Text Container Outside */
+.home-s14-txt-container-outside {
+    display: flex;
+    justify-content: center;
+}
+
+/* Text Container */
+.home-s14-txt-container {
+    position: absolute;
+    top: 60px;
+}
+
+/* Heading */
+.home-s14-heading {
+    color: #000000;
+    font-family: "Poppins", sans-serif;
+    font-size: 38px;
+    font-weight: 400;
+    text-transform: capitalize;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+/* Highlight */
+.home-s14-highlight {
+    color: #008CD0;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+}
+
+/* Paragraph */
+.home-s14-para {
+    color: #000000;
+    text-align: center;
+    font-family: "Maven Pro", Sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+
+/* TAB view */
+@media screen and (max-width: 992px) {
+
+    /* Container */
+    .home-s14-container {
+        padding: 50px 40px !important;
+    }
+
+    /* Text Container */
+    .home-s14-txt-container {
+        top: 10px;
+    }
+
+    /* Heading */
+    .home-s14-heading {
+        font-size: 32px;
+    }
+
+    /* Paragraph */
+    .home-s14-para {
+        font-size: 18px;
+        padding: 0px 40px;
+    }
+}
+
+/* MOBILE view */
+@media screen and (max-width: 767px) {
+
+    /* Container */
+    .home-s14-container {
+        padding: 60px 20px !important;
+    }
+
+    /* Text Container */
+    .home-s14-txt-container {
+        top: -20px;
+    }
+
+    /* Heading */
+    .home-s14-heading {
+        font-size: 32px;
+        margin: 0px 1px;
+    }
+
+    /* Paragraph */
+    .home-s14-para {
+        font-size: 18px;
+        padding: 0px 40px;
+    }
+}
